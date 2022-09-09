@@ -8,6 +8,8 @@ This repo contains the files to seblum.me.
 
 template by http://ibthemespro.com/docs/waxon/
 
+https://www.youtube.com/watch?v=r55qenPhLP8&ab_channel=ib-themes
+
 ```
 # Project setup
 npm install
