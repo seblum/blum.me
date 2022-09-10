@@ -41,7 +41,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.S3_BUCKET_REGION }}
-        # SOURCE_DIR: ./plain/dist/
+        SOURCE_DIR: ./plain/dist/
     # - name: Publish to S3
     #   uses: shallwefootball/s3-upload-action@master
     #   with:
