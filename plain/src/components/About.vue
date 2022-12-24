@@ -19,7 +19,9 @@
             <p>
               I’m Sebastian – A data enthusiast with an academic background in
               cognitive science and human factors, currently focusing my work on
-              MLOps and deep learning.
+              <a href="/mlops" >
+                MLOps
+              </a> and deep learning.
             </p>
             <p>
               I am curious about AI and its various interpretations and
