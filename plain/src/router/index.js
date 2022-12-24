@@ -15,14 +15,6 @@ const routes = [
     component: Main,
   },
   {
-    path: "*",
-    name: NotFound,
-    meta: {
-      title: "404",
-    },
-    component: () => import("../views/NotFound.vue"),
-  },
-  {
     path: "/mlops",
     name: "MLOps",
     meta: {
@@ -33,6 +25,14 @@ const routes = [
     beforeEnter() {
       window.location.href = "https://seblum.github.io/mlops-practice/";
     },
+  },
+  {
+    path: "*",
+    name: "NotFound",
+    meta: {
+      title: "404",
+    },
+    component: NotFound,
   }
 ];
 const router = new VueRouter({
