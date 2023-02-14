@@ -8,7 +8,7 @@
 export default {
 
   created() {
-    window.location.href = "https://seblum.github.io/mlops-practice/";
+    window.location.href = "https://seblum.github.io/mlops-engineering-book/";
   },
 
 };
