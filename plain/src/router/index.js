@@ -24,7 +24,7 @@ const routes = [
     // # Second possibility to directly route to external URL. Seems slower though.
     beforeEnter() {
       window.location.href = "https://seblum.github.io/mlops-engineering-book/";
-    },
+    }
   },
   {
     path: "*",
