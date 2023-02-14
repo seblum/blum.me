@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import NotFound from "../views/NotFound.vue";
 import Main from "../views/Main.vue";
-
+import MLOps from "../views/MLOps.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -20,9 +20,11 @@ const routes = [
     meta: {
       title: "MLOps Engineering",
     },
-    beforeEnter() {
-      window.location.href = "https://seblum.github.io/mlops-engineering-book/";
-    }
+    component: Main,
+    // # Second possibility to directly route to external URL. Seems slower though.
+    // beforeEnter() {
+    //   window.location.href = "https://seblum.github.io/mlops-engineering-book/";
+    // }
   },
   {
     path: "*",
