@@ -1,6 +1,6 @@
 # seblum.me 
 
-[![S3 Publish CI](https://github.com/blum.me/actions/workflows/publish-node-s3-bucket.yml/badge.svg)](https://github.com/blum.me/actions/workflows/publish-node-s3-bucket.yml)
+[![S3 Publish CI](https://github.com/seblum/blum.me/actions/workflows/publish-node-s3-bucket.yml/badge.svg)](https://github.com/seblum/blum.me/actions/workflows/publish-node-s3-bucket.yml)
 
 This repository contains the files to [seblum.me](https://www.seblum.me). The website is based on a [Waxon-template](https://themeforest.net/item/waxon-vuejs-personal-portfolio-template/33025103). 
 
