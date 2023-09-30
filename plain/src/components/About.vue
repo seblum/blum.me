@@ -5,7 +5,7 @@
         <div class="left">
           <img
             class="thumbnail"
-            src="../assets/img/about/p1.jpg"
+            src="../assets/img/about/SEBA_1.png"
             alt="man with sunglass"
           />
         </div>
