@@ -1,11 +1,10 @@
 <template>
   <div>
     <div class="waxon_tm_main .upper">
-      <h4>Sebastian Blum</h4>
+      <h2>Sebastian Blum</h2>
     </div>
 
     <About />
-
     <Footer />
   </div>
 </template>

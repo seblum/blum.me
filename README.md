@@ -1,36 +1,44 @@
-# seblum.me 
+# seblum.me
 
 [![S3 Publish CI](https://github.com/seblum/blum.me/actions/workflows/publish-node-s3-bucket.yml/badge.svg)](https://github.com/seblum/blum.me/actions/workflows/publish-node-s3-bucket.yml)
 
-This repository contains the files to [seblum.me](https://www.seblum.me). The website is based on a [Waxon-template](https://themeforest.net/item/waxon-vuejs-personal-portfolio-template/33025103). 
+This repository contains the files for the website [seblum.me](https://www.seblum.me). The website is based on the [Waxon-template](https://themeforest.net/item/waxon-vuejs-personal-portfolio-template/33025103).
 
-To build and run the website locally use the following commands.
-```
-# install npm and node
+## Local Development
+
+To build and run the website locally, follow these commands:
+
+```bash
+# Install npm and node (version 12)
 brew install node@12
+brew unlink node
 brew link node@12
 
-# the following commands need to be run from the project folder 'plain'
+# Navigate to the project folder 'plain'
+cd path/to/your/project/folder/plain
 
 # Project setup
 npm install
 
-# Compiles and hot-reloads for development. 
-# Navigate to http://localhost:3000/ 
-# The app will automatically reload if you change any of the source files.
+# Compiles and hot-reloads for development
 npm run serve
 
 # Compiles and minifies the code for production
-# build folder is under the dist directory
 npm run build
 ```
 
-Further helpful links can be found here:
+The development server will be accessible at http://localhost:3000/. The production build can be found in the `dist` directory.
 
-+ https://cli.vuejs.org/guide/deployment.html
-+ https://www.youtube.com/watch?v=r55qenPhLP8&ab_channel=ib-themes
-+ http://ibthemespro.com/docs/waxon/
+## License
 
-This template is valid on a regular license. Please reach out to me under *hello@seblum.me* to get further information, and in case any detailed license information are needed.
-## ToDO
-- [x] reference to licence
+This template is valid under a regular license provided by [Waxon-template](https://themeforest.net/item/waxon-vuejs-personal-portfolio-template/33025103). For further information or detailed license information, please contact the author at *hello@seblum.me*.
+
+## Clear Cloudfront Cache
+
+For information on clearing the Cloudfront cache, please refer to the [Clear Cloudfront cache documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html).
+
+## Helpful Links
+
+- [Vue CLI Deployment Guide](https://cli.vuejs.org/guide/deployment.html)
+- [YouTube Video Tutorial](https://www.youtube.com/watch?v=r55qenPhLP8&ab_channel=ib-themes)
+- [Waxon Documentation](http://ibthemespro.com/docs/waxon/)
